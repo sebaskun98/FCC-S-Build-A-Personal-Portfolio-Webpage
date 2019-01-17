@@ -1,0 +1,97 @@
+#welcome-section {
+  background-image: url("https://www.norway-travel.com/upload/Winfried-Rosen-Hurtigruten2-edit1-943x0.jpg");
+  /* Set a specific height */
+  height: 100vh;
+  text-align: center;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.welcome-text{
+  color: #fefefe;
+  text-shadow: 2px 2px 2px #0a0a0a;
+}
+.color{
+  background-color: #323232;
+  position: fixed;
+  z-index: 1;
+}
+#projects{
+    padding-top: 60px;
+    margin-top: -60px;
+    background-color:#4c4c4c;
+}
+header h2{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px #0a0a0a;
+    padding-bottom: 20px;
+}
+.project-pic{
+    width: 100%;
+    height: 380px;
+    border-bottom: 2px solid;
+}
+.project-tile {
+    font-weight: bold;
+    text-align: center;
+}
+.project{
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    overflow: hidden;
+    border: 2px solid lightblue;
+    height: 420px;
+    width: 480px;
+    margin: 40px 100px;
+  
+}
+#Contact_me {
+  padding-top: 60px;
+  background: #1d1e22;
+  padding-bottom:20px;
+  color: white;
+}
+#Contact_me h2,h5{
+  color: white;
+  text-align: center;
+}
+#Contact_me a{
+  margin-left: 12%;
+  align-items: center;
+  color: #f8f9fa;
+  background: #1d1e22;
+  background-image: none;
+  border-color: #f8f9fa;
+}
+.buttons{
+  padding-top: 50px;
+}
+body,footer{
+  background-color:#4c4c4c;
+  color: white;
+}
+footer{
+  margin-top: 20px;
+  margin-left: 10%;
+  padding-bottom: 10px;
+}
+@media (max-width: 600px) 
+{
+  footer
+   {
+    padding-bottom: 5px;
+   }
+}
