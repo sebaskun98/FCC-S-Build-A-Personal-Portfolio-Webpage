@@ -22,15 +22,16 @@
   color: #fefefe;
   text-shadow: 2px 2px 2px #0a0a0a;
 }
+i{margin-right: 3px;}
 .color{
-  background-color: #323232;
-  position: fixed;
-  z-index: 1;
+  background-color: #1b242f;
+  margin-bottom:10px;
+  width: 100%;
 }
 #projects{
     padding-top: 60px;
-    margin-top: -60px;
-    background-color:#4c4c4c;
+    margin-top: 20px;
+    background-color:#1b242f;;
 }
 header h2{
     text-align: center;
@@ -48,19 +49,26 @@ header h2{
     text-align: center;
 }
 .project{
-    text-decoration: none;
-    color:white;
-    display: inline-block;
-    overflow: hidden;
-    border: 2px solid lightblue;
-    height: 420px;
-    width: 480px;
-    margin: 40px 100px;
-  
+  text-decoration: none;
+  color:white;
+  display: inline-block;
+  overflow: hidden;
+  border: 2px solid black;
+  height: 420px;
+  width: 480px;
+  margin: 50px 50px;
 }
+@media screen and (max-width: 450px) {
+  .project{
+    height: 420px !important;
+    width: 310px !important;
+    margin: 50px 10px !important;
+  }
+}
+
 #Contact_me {
   padding-top: 60px;
-  background: #1d1e22;
+  background: #1b242f;;
   padding-bottom:20px;
   color: white;
 }
@@ -71,22 +79,27 @@ header h2{
 #Contact_me a{
   margin-left: 12%;
   align-items: center;
-  color: #f8f9fa;
-  background: #1d1e22;
-  background-image: none;
-  border-color: #f8f9fa;
+  color: #1d1e22;
 }
 .buttons{
   padding-top: 50px;
 }
 body,footer{
-  background-color:#4c4c4c;
-  color: white;
+  background-color:white;
+  color: black;
+}
+.col-md-6 p {
+  width: 40%;
+  margin:0 auto;
+  padding-top: 10px;
 }
 footer{
-  margin-top: 20px;
-  margin-left: 10%;
-  padding-bottom: 10px;
+  padding: 10px;
+}
+footer p{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
 }
 @media (max-width: 600px) 
 {
@@ -94,4 +107,35 @@ footer{
    {
     padding-bottom: 5px;
    }
+}
+.card-title{
+  color: black !important;
+}
+
+html, body {
+  margin: 0; padding: 0;
+}
+.hero-bkg-animated {
+  background: gray url(https://thumbs.gfycat.com/AnnualEnviousDartfrog-size_restricted.gif) repeat 0 0;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  height: 300px;
+  padding-top: 120px;
+  box-sizing: border-box;
+  -webkit-animation:  linear infinite;
+}
+
+.hero-bkg-animated h1 {
+  font-family: sans-serif;
+}
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+}
+
+.foto{
+  width :30%;
+  margin: 0 auto;
 }
