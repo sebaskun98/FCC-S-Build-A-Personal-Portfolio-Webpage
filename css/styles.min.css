@@ -5779,21 +5779,6 @@ a.label:hover {
     background-color: #c9302c
 }
 
-.badge {
-    display: inline-block;
-    min-width: 10px;
-    padding: 3px 7px;
-    font-size: 12px;
-    color: #fff;
-    vertical-align: middle;
-    background-color: #777;
-    border-radius: 10px
-}
-
-.badge:empty {
-    display: none
-}
-
 .media-object,
 .thumbnail {
     display: block
